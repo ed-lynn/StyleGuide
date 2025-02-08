@@ -1,10 +1,15 @@
 # UE5 Style Guide
 
-# THIS IS A DRAFT
-
 *Heavily inspired by the [Gamemakin](https://gamemak.in) UE5 Style Guide.*
 
-# Lyra Framework WIP
+# -----------THIS IS A DRAFT WIP-----------
+
+## Linking To This Document
+
+Every section of this style guide is numbered for both easy reference and easy linking. You can link to any section directly by simply append a hash tag and the section number to the end of https://tinyurl.com/lyrastyle
+For example, if you want to send someone to the first principle of this style guide you would append `#0.1`, resulting in https://tinyurl.com/lyrastyle#0.1.
+
+## Lyra Framework
 
 *Lyra Specific Asset Naming Convention goes here
 *most links in lyra section are broken as shit. currently formatting
@@ -94,9 +99,8 @@ There are multiple ways to lay out the content of a ue5 project. In this style, 
 <a name="2e1"><a>
 ### 2e1 Example Lyra uBer Feature Plugin [UFP]
 <pre>
-|-- Content
 |-- Plugins
-|   |-- <a href="#2.2">uFrame Source Content</a>
+|   |-- <a href="#2.2">uBerCore Content</a>
     |-- <a href="#2.2">ShooterCore</a>
         |-- Characters
         |   |-- Cameras
@@ -137,9 +141,9 @@ There are multiple ways to lay out the content of a ue5 project. In this style, 
         |   |-- DevMap
         |   |-- MainGameMap
         |   |-- <a href="#2.7">LevelInstances</a>
-        |   |   |-- Town
-        |   |   |-- Bank
-        |   |   |-- Random POI
+        |   |   |-- LI_Town
+        |   |   |-- LI_Bank
+        |   |   |-- LI_RandomPOI
         |-- Input
         |   |-- IMC_Default
         |   |-- Actions
@@ -175,3 +179,5 @@ The reasons for this structure are listed in the following sub-sections.
 ### 2.4 All Map[<sup>*</sup>](#terms-level-map) Files Belong In A Folder Called Maps
 
 because Asset Manager
+
+**[⬆ Back to Top](#lyra-framework)**
