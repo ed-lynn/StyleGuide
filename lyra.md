@@ -1,4 +1,4 @@
-# UE5 Style Guide
+# UE5 Lyra Style Guide
 
 *Heavily inspired by the [Gamemakin](https://gamemak.in) UE5 Style Guide.*
 
@@ -11,8 +11,7 @@ For example, if you want to send someone to the first principle of this style gu
 
 ## Lyra Framework
 
-*Lyra Specific Asset Naming Convention goes here
-*most links in lyra section are broken as shit. currently formatting
+*most links in lyra section are broken as shit. currently formatting*
 
 <a name="toc-lyra"></a>
 ## Lyra Table of Contents
@@ -33,14 +32,14 @@ For example, if you want to send someone to the first principle of this style gu
 
 <a name="lyra-prime"></a>
 <a name="1.1"></a>
-#### 1.2.1 Lyra Primary Data Assets
+#### 1.2.1 Primary Data Assets
 
 | Asset Type              | Prefix     | Suffix     | Notes                            |
 | ----------------------- | ---------- | ---------- | -------------------------------- |
 | Experience Definition   | BP_        | _EX        | [System/Experiences](#2.4)       |
 | User-Facing Experience  | DA_        | _UX        | [System/Experiences](#2.4)       |
-| Experience Action Set   | DA_        | _AS        |                                  |
-| Pawn Data               | DA_        | _PD        | [System/Playlists](#2.4)         |
+| Experience Action Set   | UAS_       |            | Suffix should be based on action.|
+
 | Input Config            | DA_        | _IG        | [Input](#2.4)                    |
 | Texture                 | T_         | _?         | See [Textures](#anc-textures)    |
 
@@ -51,26 +50,12 @@ For example, if you want to send someone to the first principle of this style gu
 | Asset Type                 | Prefix     | Suffix     | Notes                            |
 | -------------------------- | ---------- | ---------- | -------------------------------- |
 | Animated Vector Field      | VFA_       |            |                                  |
+| Pawn Data                  | DA_        | _PD        | [System/Playlists](#2.4)         |
 | Camera Anim                | CA_        |            |                                  |
 | Color Curve                | Curve_     | _Color     |                                  |
 | Curve Table                | Curve_     | _Table     |                                  |
 | Data Asset                 | *_         |            | Prefix should be based on class. |
-| Data Table                 | DT_        |            |                                  |
-| Float Curve                | Curve_     | _Float     |                                  |
-| Foliage Type               | FT_        |            |                                  |
-| Force Feedback Effect      | FFE_       |            |                                  |
-| Landscape Grass Type       | LG_        |            |                                  |
-| Landscape Layer            | LL_        |            |                                  |
-| Matinee Data               | Matinee_   |            |                                  |
-| Media Player               | MP_        |            |                                  |
-| Object Library             | OL_        |            |                                  |
-| Redirector                 |            |            | These should be fixed up ASAP.   |
-| Sprite Sheet               | SS_        |            |                                  |
-| Static Vector Field        | VF_        |            |                                  |
-| Substance Graph Instance   | SGI_       |            |                                  |
-| Substance Instance Factory | SIF_       |            |                                  |
-| Touch Interface Setup      | TI_        |            |                                  |
-| Vector Curve               | Curve_     | _Vector    |                                  |
+
 
 <a name="lyra-ui"></a>
 <a name="1.2.11"></a>
